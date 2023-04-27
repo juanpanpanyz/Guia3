@@ -47,7 +47,17 @@ class Program {
 ## **Tercer Ejercicio**
 
 ```c#
-
+using System;
+class Program {
+    public static void Main(string[] args) {
+      int factos = 1;
+          Console.WriteLine("Ingrese un Numero");
+          int num = int.Parse(Console.ReadLine());
+      for (int i = 1; i <= num; i ++) {
+        factos = factos * i;
+        }
+      Console.WriteLine(factos);
+        }}
 ```
 
 ## **Cuarto Ejercicio**

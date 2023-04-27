@@ -31,7 +31,17 @@ class Program {
 ## **Segundo Ejercicio**
 
 ```c#
-
+using System;
+class Program {
+    public static void Main(string[] args) {
+      int suma = 0;
+          Console.WriteLine("Ingrese un Numero");
+          int num = int.Parse(Console.ReadLine());
+      for (int i = 1; i <= num; i ++) {
+        suma = suma + i;
+        }
+      Console.WriteLine(suma);
+        }}
 ```
 
 ## **Tercer Ejercicio**

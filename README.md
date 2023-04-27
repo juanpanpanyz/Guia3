@@ -69,7 +69,14 @@ class Program {
 ## **Quinto Ejercicio**
 
 ```c#
-
+using System;
+class Program {
+    public static void Main(string[] args) {
+          Console.WriteLine("Ingrese un Numero");
+          int num = int.Parse(Console.ReadLine());
+          int num2 = int.Parse(Console.ReadLine());
+         Console.WriteLine(Math.Pow(num, num2));
+        }}
 ```
 
 ## **Sexto Ejercicio**

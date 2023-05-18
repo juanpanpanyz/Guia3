@@ -1,0 +1,13 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+          int multi = 1;
+          Console.WriteLine("Ingrese un Numero");
+          int num = int.Parse(Console.ReadLine());
+    for (int x = 1; x < 11; x ++) {
+      Console.WriteLine (multi + " x " + multi + " = " +(num * multi));
+      multi +=1;
+    }
+  }
+}

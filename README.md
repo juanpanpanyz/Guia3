@@ -74,6 +74,7 @@ class Program {
     public static void Main(string[] args) {
           Console.WriteLine("Ingrese un Numero");
           int num = int.Parse(Console.ReadLine());
+          Console.WriteLine("Ingrese otro Numero");
           int num2 = int.Parse(Console.ReadLine());
          Console.WriteLine(Math.Pow(num, num2));
         }}
